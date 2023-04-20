@@ -1,0 +1,22 @@
+{
+  "name": "projeto01",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "leitura": "node leitura.js",
+    "links": "node cli.js ./arquivos/texto.md",
+    "valida": "node cli.js ./arquivos/texto.md valida"
+  },
+  "keywords": [],
+  "author": "Milton Andrade Eufrasio Junior",
+  "license": "ISC",
+  "description": "Tarefa01",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "fs": "^0.0.1-security",
+    "jest": "^29.5.0",
+    "node-fetch": "^3.3.1",
+    "require": "^2.4.20"
+  }
+}
